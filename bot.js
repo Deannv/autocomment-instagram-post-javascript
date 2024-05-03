@@ -31,7 +31,7 @@ function randomChoice(arr) {
     return arr[Math.floor(arr.length * Math.random())];
 }
 
-const postUrl = 'https://www.instagram.com/p/C3kSyt4Py0A/';
+const postUrl = 'change with post URL';
 
 
 async function postCommentsSequentially(accounts, postUrl, comments) {
