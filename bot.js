@@ -3,6 +3,7 @@ const { accounts, comments } = require('./resources.json');
 const sleep = ms => new Promise(res => setTimeout(res, ms));
 
 async function comment(username, password, postUrl, comment) {
+
     const browser = await puppeteer.launch({ headless: false }); // Change to true to run the process in background
     const page = await browser.newPage();
 
